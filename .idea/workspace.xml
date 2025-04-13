@@ -5,12 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15788ad8-0539-420e-999e-3a5515a85c07" name="更改" comment="update:更新初始化项目">
+      <change afterPath="$PROJECT_DIR$/libs/bili/algorithm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/http.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/login/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/video/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlayVideo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/video/video.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.env" beforeDir="false" afterPath="$PROJECT_DIR$/config/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.env.dev" beforeDir="false" afterPath="$PROJECT_DIR$/config/.env.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/foo/bar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Composition API Component" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,35 +59,68 @@
     &quot;assignee&quot;: &quot;CuZaoo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CuZaoo/BiliBili",
-    "accountId": "a62f491a-b176-4412-a844-44e9bda5cfd4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CuZaoo/BiliBili.git&quot;,
+    &quot;accountId&quot;: &quot;c1229184-71e9-4ce2-b7cf-aa54eae55bf7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2vZlRN0s0m7yA2aDDVEnpmOYWtW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript 调试.调试.executor": "Debug",
+    "Node.js.algorithm.js.executor": "Debug",
+    "Node.js.env.ts.executor": "Run",
+    "Node.js.index.ts.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "js.last.introduce.type": "LET",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "G:\\PyCharm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "npm.dev.executor": "Debug",
+    "prettierjs.PrettierConfiguration.Package": "D:\\PycharmProjects\\BiliBili\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "http.proxy",
+    "ts.external.directory.path": "D:\\PycharmProjects\\BiliBili\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\BiliBili\src\views\login" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript 调试.调试">
+    <configuration name="调试" type="JavascriptDebugType" uri="http://localhost:3000/" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/libs/bili/algorithm.js" working-dir="$PROJECT_DIR$/libs/bili">
+      <method v="2" />
+    </configuration>
+    <configuration name="env.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/hooks/env.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/hooks">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/api/video/index.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/src/api/video">
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="BiliBili" />
       <option name="ENV_FILES" value="" />
@@ -73,12 +144,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript 调试.调试" />
+      <item itemvalue="Node.js.algorithm.js" />
+      <item itemvalue="Node.js.env.ts" />
+      <item itemvalue="Node.js.index.ts" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.algorithm.js" />
+        <item itemvalue="Node.js.env.ts" />
+        <item itemvalue="Node.js.index.ts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -93,14 +189,41 @@
       <workItem from="1744360469087" duration="85000" />
       <workItem from="1744362244221" duration="205000" />
       <workItem from="1744362585351" duration="793000" />
+      <workItem from="1744418964330" duration="54000" />
+      <workItem from="1744419025721" duration="1434000" />
+      <workItem from="1744420499534" duration="5040000" />
+      <workItem from="1744425787288" duration="138000" />
+      <workItem from="1744425935692" duration="14373000" />
+      <workItem from="1744510830956" duration="1618000" />
+      <workItem from="1744519762405" duration="712000" />
+      <workItem from="1744520507162" duration="49000" />
+      <workItem from="1744520576990" duration="126000" />
+      <workItem from="1744520728203" duration="165000" />
+      <workItem from="1744520904257" duration="158000" />
+      <workItem from="1744521072612" duration="1513000" />
+      <workItem from="1744528062086" duration="14880000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.d.ts" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/main.js.map" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update:更新初始化项目" />
     <option name="LAST_COMMIT_MESSAGE" value="update:更新初始化项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="啊" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

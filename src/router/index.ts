@@ -14,7 +14,7 @@ const router = createRouter({
   },
 })
 
-router.beforeEach(() => {
+router.beforeEach((to, from) => {
   progress.start()
 })
 

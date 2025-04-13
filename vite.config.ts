@@ -11,7 +11,6 @@ import pkg from './package.json'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, envDir)
-
   return {
     /**
      * 管理环境变量的配置文件存放目录
@@ -32,13 +31,13 @@ export default defineConfig(({ mode }) => {
      */
     server: {
       port: 3000,
-      // proxy: {
-      //   '/devapi': {
-      //     target: 'http://192.168.10.198',
-      //     changeOrigin: true,
-      //     rewrite: (path) => path.replace(/^\/devapi/, ''),
-      //   },
-      // },
+      proxy: {
+        '/bili': {
+          target: 'https://api.bilibili.com',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/bili/, ''),
+        },
+      },
     },
 
     build: {

@@ -14,32 +14,51 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/views/home.vue'),
     meta: {
       title: 'Home',
+      needLogin: false,
     },
   },
-  /**
-   * 子路由示例
-   */
   {
-    path: '/foo',
-    name: 'foo',
-    component: () => import('@/components/TransferStation.vue'),
+    path: '/login',
+    name: 'login',
+    component: () => import('@/views/login/login.vue'),
     meta: {
-      title: 'Foo',
+      title: 'Login',
+      needLogin: true,
     },
-    redirect: {
-      name: 'bar',
-    },
-    children: [
-      {
-        path: 'bar',
-        name: 'bar',
-        component: () => import('@/views/foo/bar.vue'),
-        meta: {
-          title: 'Bar',
-        },
-      },
-    ],
   },
+  {
+    path: '/video',
+    name: 'video',
+    component: () => import('@/views/video/video.vue'),
+    meta: {
+      title: 'video',
+      needLogin: true,
+    },
+  },
+  // /**
+  //  * 子路由示例
+  //  */
+  // {
+  //   path: '/foo',
+  //   name: 'foo',
+  //   component: () => import('@/components/TransferStation.vue'),
+  //   meta: {
+  //     title: 'Foo',
+  //   },
+  //   redirect: {
+  //     name: 'bar',
+  //   },
+  //   children: [
+  //     {
+  //       path: 'bar',
+  //       name: 'bar',
+  //       component: () => import('@/views/foo/bar.vue'),
+  //       meta: {
+  //         title: 'Bar',
+  //       },
+  //     },
+  //   ],
+  // },
 ]
 
 export default routes

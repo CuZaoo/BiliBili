@@ -2,8 +2,13 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from '@/App.vue'
 import router from '@/router'
+import ElementPlus from 'element-plus'
+// import VueVideoPlayer from '@videojs-player/vue'
 
 // 全局样式
+import 'element-plus/dist/index.css'
+// import 'video.js/dist/video-js.css'
+
 import 'virtual:uno.css'
 import '@/styles/var.less'
 import '@/styles/mixin.less'
@@ -24,6 +29,7 @@ const pinia = createPinia()
 // pinia.use(piniaPluginPersistedstate)
 
 createApp(App)
+  .use(ElementPlus)
   .use(pinia) // 启用 Pinia
   .use(router)
   .mount('#app')
