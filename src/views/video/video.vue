@@ -22,12 +22,22 @@ onMounted(async () => {
         shadow="hover"
         class="video-card"
       >
-        <img
-          :src="video.pic"
-          alt="封面图"
-          referrerPolicy="no-referrer"
-          class="video-cover"
-        />
+        <router-link
+          :to="{
+            name: 'details',
+            query: {
+              bvid: video.bvid,
+              cid: video.cid,
+            },
+          }"
+        >
+          <img
+            :src="video.pic"
+            alt="封面图"
+            referrerPolicy="no-referrer"
+            class="video-cover"
+          />
+        </router-link>
         <div class="video-info">
           <h4 class="video-title">
             {{ video.title }}

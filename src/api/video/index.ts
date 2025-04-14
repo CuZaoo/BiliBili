@@ -8,5 +8,9 @@ const videoApi = {
     let url: string = '/video/recommended'
     return http.get(url)
   },
+  async getVideoSteam(params: Object) {
+    let url: string = '/video/steam'
+    return http.get(url, params)
+  },
 }
 export default videoApi

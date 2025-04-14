@@ -35,6 +35,11 @@ const routes: RouteRecordRaw[] = [
       needLogin: true,
     },
   },
+  {
+    path: '/video/details',
+    name: 'details',
+    component: () => import('@/views/video/videoDetails.vue'),
+  },
   // /**
   //  * 子路由示例
   //  */
